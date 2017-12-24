@@ -1,5 +1,25 @@
-<% @final_result.each do |pair| %>
-    <h3>
-        <%= pair[0] %> and <%= pair[1] %> are giving gifts to each other
-    </h3>
-<% end %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--<meta charset="UTF-8">-->
+    <title>Results</title>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+  </head>
+  <body>
+      <center>
+        <br>
+        <h2><strong>Here are your results:</strong></h2>
+        <h3>(Click on the location names to learn more about them!)</h3>
+
+        <% @finalresults.each do |entry| %>
+          <h2><a href="<%= entry['url'] %>"><%= entry['name'] %></a></h2>
+          <img src="<%= entry['image_url'] %>" height = "200">
+        <% end %>
+      </center>
+  </body>
+</html>

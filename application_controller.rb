@@ -14,6 +14,30 @@ class MyApp < Sinatra::Base
   get '/results' do
     erb :results
   end
+  
+  get '/onesearch.erb' do
+    erb :onesearch
+  end
+  
+  get '/twosearch.erb' do
+    erb :twosearch
+  end
+  
+    get '/threesearch.erb' do
+    erb :threesearch
+  end
+  
+    get '/foursearch.erb' do
+    erb :foursearch
+  end
+  
+    get '/fivesearch.erb' do
+    erb :fivesearch
+  end
+  
+    get '/sixsearch.erb' do
+    erb :sixsearch
+  end
 
   post '/results' do
   # grab user input
