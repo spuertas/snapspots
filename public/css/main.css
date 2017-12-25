@@ -1154,6 +1154,7 @@
 		margin-bottom: 2em;
 	}
 
+
 /* Form */
 
 	form label {
@@ -1531,27 +1532,27 @@
 					line-height: 1.5em;
 				}
 
-				ul.social li a.fa-facebook {
-					background: #3c5a98;
+				ul.social li a.fa-camera {
+					background: #6b1e72;
 				}
 
-					ul.social li a.fa-facebook:hover {
-						background: #4c6aa8;
+					ul.social li a.fa-camera:hover {
+						background: #731f7a;
 					}
 
-				ul.social li a.fa-twitter {
+				ul.social li a.fa-envelope {
 					background: #2daae4;
 				}
 
-					ul.social li a.fa-twitter:hover {
+					ul.social li a.fa-envelope:hover {
 						background: #3dbaf4;
 					}
 
-				ul.social li a.fa-dribbble {
+				ul.social li a.fa-github {
 					background: #c4376b;
 				}
 
-					ul.social li a.fa-dribbble:hover {
+					ul.social li a.fa-github:hover {
 						background: #d4477b;
 					}
 
@@ -1563,12 +1564,12 @@
 						background: #1075a9;
 					}
 
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
+				ul.social li a.fa-id-card-o {
+					background: #ff30ed;
 				}
 
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
+					ul.social li a.fa-id-card-o:hover {
+						background: #ff49ef;
 					}
 
 				ul.social li a.fa-google-plus {
@@ -1655,7 +1656,7 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #ebb2f7 url("snapspots/public/css/images/colorbridge.jpg");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -1663,8 +1664,8 @@
 	}
 
 		#banner header {
-			background-color: #252122;
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: #ebb2f7;
+			/*background-color: rgba(34, 30, 31, 0.98);*/
 		}
 
 			#banner header h2 {
