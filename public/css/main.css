@@ -1172,7 +1172,7 @@
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		padding: 0.75em 1em;
+		padding: 0.75em 1.5em;
 		font-size: 1em;
 		border-radius: 5px;
 		border: solid 1px #dddddd;
@@ -1572,12 +1572,12 @@
 						background: #ff49ef;
 					}
 
-				ul.social li a.fa-google-plus {
-					background: #da2713;
+				ul.social li a.fa-smile-o {
+					background: #ff9442;
 				}
 
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
+					ul.social li a.fa-smile-o:hover {
+						background: #ff9747;
 					}
 
 	ol.default {
@@ -1656,7 +1656,7 @@
 /* Banner */
 
 	#banner {
-		background: #ebb2f7 url("snapspots/public/css/images/colorbridge.jpg");
+		background: #47beff url("snapspots/public/images/colorbridge.jpg");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -1664,7 +1664,7 @@
 	}
 
 		#banner header {
-			background-color: #ebb2f7;
+			background-color: #47beff;
 			/*background-color: rgba(34, 30, 31, 0.98);*/
 		}
 
