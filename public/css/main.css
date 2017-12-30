@@ -2548,7 +2548,7 @@
 	}
 	
 	/* left align for logo */
-	.left {
-   		float: left;
+	.right {
+   		float: right;
    		padding: 0 20px 20px 0;
 	}
