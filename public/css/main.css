@@ -1320,7 +1320,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: #33d7e0;
 		}
 
 		input[type="button"]:active,
@@ -1328,7 +1328,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #c51349;
+			background: #2bc7d0;
 		}
 
 		input[type="button"].alt,
@@ -1656,7 +1656,7 @@
 /* Banner */
 
 	#banner {
-		background: #47beff url("/pics/colorbridge.jpg");
+		background: #47beff url("/pics/snapspotscollage2.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -1666,6 +1666,7 @@
 		#banner header {
 			background-color: #47beff;
 			background-color: rgba(34, 30, 31, 0.98);
+			/*opacity: 0.5;*/
 		}
 
 			#banner header h2 {
